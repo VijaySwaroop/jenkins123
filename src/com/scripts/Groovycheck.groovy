@@ -6,7 +6,7 @@ def n
 public abstract class Groovycheck extends AbstractBuild{
 
 static def getSonarQub() {
-		def build = new Groovycheck(n)
+		def build = new AbstractBuild(n)
 		return build.getWorkspace()
         
         }
