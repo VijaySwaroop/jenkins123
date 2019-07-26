@@ -1,6 +1,6 @@
 package com.scripts;
 
-import hudson.model.AbstractBuild;
+import hudson.model.Build;
 
 
 class Groovycheck{
