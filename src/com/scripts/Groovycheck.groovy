@@ -1,12 +1,12 @@
 package com.scripts;
 
-import hudson.model.FreeStyleBuild;
+import hudson.model.AbstractBuild;
 
 
-class Groovycheck{
+public abstact class Groovycheck extends AbstractBuild{
 
 static def getSonarQub() {
-		def build = new FreeStyleBuild()
+		def build = new Groovycheck()
 		return build.getWorkspace()
         
         }
