@@ -3,7 +3,7 @@ package com.scripts;
 import hudson.model.AbstractBuild;
 
 
-class Groovycheck extend AbstractBuild{
+class Groovycheck extends AbstractBuild{
 
 static def getSonarQub() {
 		def build = new Groovycheck()
