@@ -3,12 +3,12 @@ package com.scripts;
 
 import hudson.model.ParametersAction;
 import hudson.model.StringParameterValue;
-import hudson.model.Build;
+import hudson.model.FreeStyleBuild;
 
 class Groovycheck {
 
 static def getSonarQub() {
-        Build build = new Build()
+        FreeStyleBuild build = new FreeStyleBuild()
 		build.getWorkspace()
 		return manager.listener.logger.println
 		
