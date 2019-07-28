@@ -9,8 +9,8 @@ class Groovycheck {
 
 static def getSonarQub() {
         FreeStyleBuild build = new FreeStyleBuild()
-		build.getWorkspace()
-		return manager.listener.logger.println
+		return build.getWorkspace()
+		//return manager.listener.logger.println
 		
         }
 }
