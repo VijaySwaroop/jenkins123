@@ -1,13 +1,12 @@
 package com.scripts;
 
 import hudson.model.AbstractBuild;
+import hudson.model.ParametersAction;
+import hudson.model.StringParameterValue;
 
+class Groovycheck {
 
-abstract class Groovycheck extends AbstractBuild{
-def n
 static def getSonarQub() {
-		def build = new AbstractBuild(n)
-		return build.getWorkspace()
-        
+		return manager.listener.logger.println
         }
 }
